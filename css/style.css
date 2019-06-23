@@ -1,0 +1,334 @@
+@charset "utf-8";
+/* CSS Document */
+
+.headertop{
+	padding: 8px 60px;
+}
+.headertop .login{
+	margin: 10px 0px;
+	font-size: 17px;
+}
+.headertop .login a{
+	color: #979595;	
+}
+#forlogin span a{
+	color: #545454;	
+}
+.headertop .login a:hover{
+	color: #FFF;	
+}
+.stock{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.stock p:first-child{
+	font-size: 3em;
+	font-weight: 300;
+}
+.comp{
+	border: 1px solid #ccc;
+	padding: 3px 15px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-right: 3px;
+}
+.comp a{
+	color: #428bca;
+}
+.invest{
+	border: 1px solid #ccc;
+	padding: 3px 15px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.invest a{
+	color: #428bca;
+}
+#basic-text1{
+	background-color: rgb(23,60,131);
+	color: #fff;
+	width: 60px;
+	font-size: 20px;
+}
+.fortab input{
+	border-top-left-radius: 0px !important;
+	height: 55px !important;
+}
+.fa-search{
+	padding: 0px 10px !important;
+}
+.stocklist{
+	padding-top: 55px;
+	padding-bottom: 30px;
+}
+.stocklist ul{
+	font-size: 17px;
+	line-height: 40px;
+}
+.stocklist ul span{
+	color: #ccc;
+}
+footer{
+	padding: 60px 0px 50px 0px;
+}
+footer p{
+	font-size: 14px;
+}
+.feedback-div{
+    position: fixed;
+    bottom: 0px;
+    right: -4px;
+    top: 50%;
+    display: block;
+}
+.feedback-bg{
+    display: block;
+    margin-top: 50px;
+    width: 60px;
+    padding: 0;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+.feedback-bg a{
+    background-color: #0679c9;
+    font-size: 19px;
+    border-radius: 5px 5px 0 0;
+    padding: 15px 25px;
+    color: #fff;
+}
+.feedback-bg a:hover{
+/*    color: #0275d8;*/
+	background-color: #3599ED;
+	color: #fff;
+}
+.modal-content{
+	top: 50px;
+}
+.forlogin{
+	height: 50px;
+	margin: 0px 16px 10px;
+	border-radius: 5px;
+}
+
+/*------ Bajaj Finance Ltd. Start------*/
+.bajajheader{
+	background-color: #ededf1;
+}
+.bajajheader img{
+	padding-top: 8px;
+}
+#filter{
+	padding-top: 15px;
+}
+.forddl{
+	border: 1px solid #ced4da;
+	padding-top: 5px;
+	background: #fff;
+	border-radius: 5px;
+}
+.forddl ul li a{
+	color: #495057;
+}
+.formarket{
+	font-size: 14px;
+}
+.formarket span .fa{
+	font-size: 20px;
+}
+.formarket span{
+	color: #015800;
+}
+.formarket p:first-child{
+	margin-bottom: 0px !important;
+	padding-top: 10px;
+}
+#forlogin{
+	margin-top: 16px;
+}
+#forlogin .fa{
+	font-size: 23px;
+}
+#forlogin span{
+	font-size: 18px;
+	padding-left: 5px;
+}
+.header-bottom{
+	background-color: #F7F7F6;
+}
+.forNav ul li{
+	padding: 0px 10px;
+	border-left: 1px solid #ccc;
+}
+.forNav ul li a{
+	font-size: 15px;
+}
+.forNav ul li:hover{
+	background-color: #0679c9;
+}
+.forNav ul li a:hover{
+	color: #fff !important;
+}
+.nav-tabs{
+	border-bottom: none !important;
+}
+#Snapshot h3{
+	font-weight: 400;
+}
+.changecol{
+	color: #9b9a9a !important;
+}
+.fa-star{
+	font-size: 22px !important;
+	color: orange;
+}
+.fa-star-half-empty{
+	font-size: 22px !important;
+	color: orange;
+}
+.fa-plus-circle{
+	font-size: 18px !important;
+	color: orange;
+}
+.fa-info-circle{
+	font-size: 12px !important;
+	color: #aaa;
+}
+.bajajnsb ul li{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.bajajnsb ul li a{
+	font-size: 14px;
+	color: black;
+}
+.bajajnsb ul li:hover{
+	background: #444444;
+	color: #fff;
+}
+.bajajnsb ul li a:hover{
+	color: #fff;
+}
+.bajajnsb .tab-content .tab-pane p>span{
+	color: green !important;
+	font-size: 18px;
+}
+.navbar-toggler{
+	background: rgb(23,60,131) !important;
+}
+.forborder{
+	border-right: 1px solid #ccc;
+}
+#stock h3{
+	font-weight: 400;
+}
+#quarterly h3{
+	font-weight: 400;
+}
+#annual h3{
+	font-weight: 400;
+}
+#result h3{
+	font-weight: 400;
+}
+#cashflow h3{
+	font-weight: 400;
+}
+#ratio h3{
+	font-weight: 400;
+}
+#investor h3{
+	font-weight: 400;
+}
+#investor p a{
+	color: black;
+}
+#investor p a:hover{
+	color: blue;
+}
+#anuual h3{
+	font-weight: 400;
+}
+#annual div span a{
+	font-size: 18px;
+}
+#news h3{
+	font-weight: 400;
+}
+#chart h3{
+	font-weight: 400; 
+}
+#Snapshot, #stock, #chart, #quarterly, #annual, #result, #cashflow, #ratio, #investor, #anuual{
+	width: 90%;	
+}
+footer p{
+	font-size: 12px;
+}
+/*------ Bajaj Finance Ltd. End------*/
+@media only screen and (min-width: 320px) and (max-width: 479px){
+	.stock p:first-child{
+		font-size: 2em;
+		font-weight: 300;
+	}
+	.feedback-div{
+		display: none;
+	}
+	.formarket p{
+		text-align: center;
+		font-size: 16px;
+	}
+	.forborder{
+		border-right: none;
+		border-bottom: 1px solid #ccc;
+		margin-bottom: 10px;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	.stock p:first-child{
+		font-size: 2em;
+		font-weight: 300;
+	}
+	.feedback-div{
+		display: none;
+	}
+	.formarket p{
+		text-align: center;
+		font-size: 18px;
+	}
+	.forborder{
+		border-right: none;
+		border-bottom: 1px solid #ccc;
+		margin-bottom: 10px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.feedback-div{
+		display: none;
+	}
+	.formarket p{
+		font-size: 18px;
+	}
+	.forborder{
+		border-right: none;
+	}
+}
+@media only screen and (min-width: 992px){
+	.forstocklist{
+		width: 80% !important;
+		margin-left: 10% !important;
+	}
+	.header-bottom .navbar .navbar-collapse ul li a{
+		font-size: 13px;
+	}
+}
+@media only screen and (min-width: 1200px){
+	.fortab{
+		width: 80% !important;
+		margin-left: 10% !important;
+	}
+	.forstocklist{
+		width: 80% !important;
+		margin-left: 10% !important;
+	}
+}

@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Stock Ratings, Research, Analysis, Fundamenta &amp; Historical Data | ratestar.in</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+	<header>
+		<div class="headertop bg-dark">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-11 col-md-11 col-sm-11 col-10 d-block">
+						<img src="https://ratestar.in/images/Rate-Star-Logo4.png" alt="ratestar" class="img-fluid">
+					</div>
+					<div class="col-lg-1 col-md-1 col-sm-1 col-1 d-block">
+						<p class="login"><a href="#myModel" data-toggle="modal" id="login" class="text-decoration-none">Login</a></p>
+					</div>
+					<div class="container">
+					<!-- The Modal -->
+					  <div class="modal fade" id="myModel">
+						<div class="modal-dialog">
+						  <div class="modal-content">
+
+							<!-- Modal Header -->
+							<div class="modal-header">
+							  <h4 class="modal-title font-weight-bold">Login</h4>
+							  <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+							</div>
+
+							<!-- Modal body -->
+							<div class="modal-body">
+								<form name="myform" method="post">
+									<div class="md-form mb-4">
+									  <i class="fa fa-id-badge fa-2x text-primary"></i>
+									   <label data-error="wrong" data-success="right" for="defaultForm-loginID">Login ID</label>
+									   <input type="text" name="email" class="form-control validate" placeholder="Enter Your Login ID">
+									</div>
+
+									<div class="md-form mb-4">
+									  <i class="fa fa-lock fa-2x" style="color:darkgoldenrod"></i>
+									  <label data-error="wrong" data-success="right" for="defaultForm-pass">Password</label>
+									  <input type="password" name="password" class="form-control validate" placeholder="Enter Your Password">
+									</div>
+								</form>
+						  </div>
+
+
+							<!-- Modal footer -->
+							<div class="modal-footer d-flex justify-content-center forlogin btn-primary">
+							  <button type="submit" class="btn text-white" data-dismiss="modal">Login</button>
+							</div>
+						  	
+						  	<div class="row">
+						  		<div class="col-lg-8 col-md-8 col-sm-8 col-6 ml-4">
+						  			<p class="text-primary">Forgot Password?</p>
+						  		</div>
+						  		<div class="col-lg-3 col-md-3 col-sm-3 col-5">
+						  			<p class="text-primary">Register Now</p>
+						  		</div>
+						  	</div>
+
+						  </div>
+						</div>
+					  </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="container text-center stock">
+		<p>Pick Winning Stocks Easily</p>
+		<p>Doing research on stocks doesn't have to be complicated.<br/>
+		Cut through the clutter and get the key metrics on over 2000 stocks on BSE and NSE.</p>
+	</section>
+	<div class="container">
+		<div class="row fortab">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+				<ul class="nav">
+					<li class="active comp"><a href="#tab1" data-toggle="tab" class="text-decoration-none">Company</a></li>
+					<li class="invest"><a href="#tab2" data-toggle="tab" class="text-decoration-none">Investor</a></li>
+				</ul>
+				<div class="tab-content">
+					<div class="tab-pane active" id="tab1">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-12" style="padding: 0px;">
+						<div class="input-group">
+						  <input class="form-control" type="text" placeholder="Enter Stock Name" aria-label="Search">
+						  <div class="input-group-append">
+							<span class="input-group-text" id="basic-text1"><i class="fa fa-search"
+								aria-hidden="true"></i></span>
+						  </div>
+						</div>
+					</div>
+					</div>
+					<div class="tab-pane" id="tab2">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-12" style="padding: 0px;">
+						<div class="input-group">
+						  <input class="form-control" type="text" placeholder="Enter Investor Name" aria-label="Search">
+						  <div class="input-group-append">
+							<span class="input-group-text" id="basic-text1"><i class="fa fa-search"
+								aria-hidden="true"></i></span>
+						  </div>
+						</div>
+					</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+<!--	------ feedback section start -------->
+	<div class="feedback-div align-content-end">
+        <div class="feedback-bg align-content-end">
+            <a href="#feedback" data-toggle="modal" class="text-decoration-none">Feedback</a>
+        </div>
+    </div>
+    <div class="container">
+		<!-- The Modal -->
+		  <div class="modal fade" id="feedback">
+			<div class="modal-dialog">
+			  <div class="modal-content">
+
+				<!-- Modal Header -->
+				<div class="modal-header">
+				  <h4 class="modal-title font-weight-bold">Feedback</h4>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+				</div>
+
+				<!-- Modal body -->
+				<div class="modal-body">
+					<form name="myform" method="post">
+						<div class="md-form mb-4">
+						  <i class="fa fa-user fa-2x text-primary"></i>
+						  <label data-error="wrong" data-success="right" for="defaultForm-fname">Full Name</label>
+						  <input type="text" name="name" class="form-control validate" placeholder="Enter Your Full Name">
+						</div>
+						
+						<div class="md-form mb-4">
+						  <i class="fa fa-envelope fa-2x text-danger"></i>
+						   <label data-error="wrong" data-success="right" for="defaultForm-email">Email</label>
+						   <input type="text" name="email" class="form-control validate" placeholder="Enter Your Email">
+						</div>
+						
+						<div class="md-form mb-4">
+						  <i class="fa fa-comment fa-2x text-info"></i>
+						  <label data-error="wrong" data-success="right" for="defaultForm-fname">Feedback</label>
+						  <textarea name="feedback" class="form-control validate" placeholder="Please provide your feedback"></textarea> 
+						</div>
+					</form>
+			 	 </div>
+ 
+
+				<!-- Modal footer -->
+				<div class="modal-footer d-flex justify-content-center">
+				  <button type="submit" class="btn btn-primary" data-dismiss="modal">Submit</button>
+				</div>
+
+			  </div>
+			</div>
+		  </div>
+	  </div>
+<!-------- feedback section end -------->
+	<div class="container stocklist">
+		<div class="row forstocklist">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+				<ul class="list-unstyled list-inline text-center">OR VIEW :
+					<li class="list-inline-item"><a class="text-decoration-none" href="bajaj-finance-ltd.html" target="_blank">&nbsp;Bajaj Finance Ltd.</a></li><span>| </span>
+					<li class="list-inline-item"><a class="text-decoration-none" href="" target="_blank">&nbsp;Bajaj Finserv Ltd.</a></li><span>| </span>
+					<li class="list-inline-item"><a class="text-decoration-none" href="" target="_blank">&nbsp;Power Finance Corporation Ltd.</a></li><span>| </span>
+					<li class="list-inline-item"><a class="text-decoration-none" href="" target="_blank">&nbsp;HDFC Bank Ltd.</a></li><span>| </span>
+					<li class="list-inline-item"><a class="text-decoration-none" href="" target="_blank">&nbsp;Info Edge (India) Ltd.</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+				<a href="https://play.google.com/store/apps/details?id=opulent.ratestar&hl=en" target="_blank"><img src="https://www.ratestar.in/images/google-play.png" alt="playstore" class="img-fluid"></a>
+			</div>
+		</div>
+	</div>
+	<footer class="container">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+					<p>&copy; ratestar.in 2017, All Rights Reserved.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
