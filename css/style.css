@@ -260,7 +260,7 @@ footer p{
 	font-weight: 400; 
 }
 #Snapshot, #stock, #chart, #quarterly, #annual, #result, #cashflow, #ratio, #investor, #anuual, #news{
-	width: 90%;	
+	width: 90% !important;	
 }
 footer p{
 	font-size: 12px;
